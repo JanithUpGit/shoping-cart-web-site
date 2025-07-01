@@ -4,7 +4,6 @@ import CartModal from './CartModal.jsx';
 
 export default function Header({ cart, onUpdateCartItemQuantity }) {
   const modal = useRef();
-
   const cartQuantity = cart.items.length;
 
   function handleOpenCartClick() {
